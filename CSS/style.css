@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header{
+  background-image:url(../images/HEADER_IMAGE.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.header{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(61, 87, 89);
+}
+.text{
+  padding: 3rem;
+  margin-top: 3rem;
+}
+
+  /* PLAYABLE CONTENT */
+  .playcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: rgb(248, 248, 248);
+  }
+  video{
+    width: 100%;
+  }
+ .wrapper{
+  display: inline;
+    position:relative;
+ }
+
+  .playpause1,.playpause2,.playpause3 {
+    background-image:url(../images/PLAY\ ICON.png);
+    background-repeat:no-repeat;
+    width:50%;
+    height:50%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+}
+.playpause1:hover{
+background-image: url(../images/INDIA\ ENGAGE\ 2020_VIDEO\ THUMBNAIL_HOVER.png);
+transform: scale(2,2);
+}
+.playpause2:hover{
+  background-image: url(../images/Rachael\ BrandLand\ Podcast_THUMBNAIL_HOVER\ IMAGE.png);
+  transform: scale(2,2);
+  }
+  .playpause3:hover{
+    background-image: url(../images/Wayne\ DMA\ Podcast_THUMBNAIL_HOVER\ IMAGE.png);
+    transform: scale(2,2);
+    }
+
+.card img:hover {
+  background-color:#000;
+  opacity:0.3;
+}
+.clearfix img:hover{
+  background-color:#000;
+  opacity:0.3;
+}
+
+  /* NEW AND FEATURED */
+.newfeatured{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: rgb(255, 255, 255);
+ 
+}
+
+/* CUSTOMER SUCCESS */
+.customersuccess{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: rgb(243, 252, 225);
+   position: relative;
+
+}
+
+
+/* BLOGS, ARTICLES &PRESS */
+.blogs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+/* PRODUCT INFO */
+.product{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: rgb(248, 248, 248);
+}
+
+/* CTA FORM */
+.ctaform{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url(../images/FORM\ BACKGROUND\ IMAGE.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.heading2{
+  color: rgb(139, 190, 63);
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+.heading3{
+  font-size: 1.5rem;
+  color: rgb(62, 88, 90);
+  line-height: 1.333;
+  text-align: center;
+}
+
+.droplist select{
+  background-image: url(../images/arrow.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.form-control{
+  border-radius: 0.37rem;
+  background-color: rgb(213, 211, 208);
+  opacity: 0.8;
+}
+
+
+
+/* FOOTER */
+.foot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: rgb(248, 248, 248);  
+}
+
+
+.list ul{
+list-style: none;
+}
+.card{
+  border: none;
+  margin: 0 0.5em;
+  background-color: transparent;
+}
+a{
+  color: rgb(139, 189, 3);
+  font-weight: bold;
+  text-decoration: none;
+}
+.heading1{
+color: rgb(61, 87, 89);
+font-weight: bold;
+font-size: 2rem;
+
+}
+.logo img{
+  width: 15vw;
+  height: auto;
+  text-align: center;
+}
+.icons img{
+  width:3vw;
+  height: auto;
+}
+
+.badge img{
+  width: 10vw;
+  height: auto;
+  text-align: center;
+}
+.card .btn{
+border-radius: .18rem;
+background-color: rgb(61, 87, 89);
+}
+.card .btn:hover{
+  opacity: 0.8;
+}
+
+
+.error{
+ color: red; 
+}
+.carousel-inner {
+  padding: 1em;
+}
+
+.carousel-control-prev,.carousel-control-next {
+  filter: invert(100%);
+  width: 6vh;
+  height: 6vh;
+  border-radius: 0%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media screen and (min-width: 768px) {
+  .carousel-item {
+    margin-right: 0;
+    flex: 0 0 33.333333%;
+    display: block;
+  }
+  .carousel-inner {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1367px) {
+  .carousel-item {
+    margin-right: 0;
+    flex: 0 0 25%;
+    display: block;
+  }
+  .carousel-inner {
+    display: flex;
+  }
+}
+
+@media screen and (max-width:768px){
+  .heading1{
+    font-size: 1.5rem;
+  }
+ .wrapper{
+  display: block;
+ }
+ .logo img{
+  width: 40%;
+  height: auto;
+}
+.icons img{
+  width:10vw;
+  height: auto;
+  
+}
+.badge img{
+  width: 25vw;
+  height: auto;
+}
+.header{
+  font-size: 1.1rem;
+}
+
+.heading2{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.heading3{
+  font-size: 1rem;
+  font-weight: bold;
+}
+.text{
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.text p{
+  width: 50%;
+}
+p{
+  font-size: .8rem;
+}
+li.p-1{
+  display: inline;
+}
+h5{
+  font-size: 1rem;
+}
+}
